@@ -1,0 +1,28 @@
+{
+  "sidebar": [
+    {
+      "label": "Guides",
+      "translations": {
+        "es": "Guías"
+      },
+      "items": [
+        {
+          "label": "Example Guide",
+          "slug": "guides/example",
+          "translations": {
+            "es": "Guía de Ejemplo"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Reference",
+      "translations": {
+        "es": "Referencia"
+      },
+      "autogenerate": {
+        "directory": "reference"
+      }
+    }
+  ]
+}
