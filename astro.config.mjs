@@ -7,17 +7,40 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'My Docs',
+			defaultLocale: 'root',
+			locales: {
+			  // English docs in `src/content/docs/en/` but served at root
+			  root: {
+			    label: 'English',
+			    lang: 'en',
+			  },
+			  es: {
+				label: 'Español',
+				lang: 'es',
+			  },
+		    },
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
 					label: 'Guides',
+					translations: {
+						es: 'Guías'
+					},
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ 
+							label: 'Example Guide', 
+							slug: 'guides/example',
+							translations: {
+								es: 'Guía de Ejemplo'
+							}
+						},
 					],
 				},
 				{
 					label: 'Reference',
+					translations: {
+						es: 'Referencia'
+					},
 					autogenerate: { directory: 'reference' },
 				},
 			],
