@@ -13,6 +13,13 @@ export default defineConfig({
 			logo: {
 				src: './src/assets/helm-logo.svg',
 			  },
+			customCss: [
+				// Relative path to the custom CSS file
+				'./src/styles/custom.css',
+			],
+			editLink: {
+				baseUrl: 'https://github.com/paigecalvert/astro-helm-test/edit/main/',
+			},
 			defaultLocale: 'root',
 			locales: {
 			  // English docs in `src/content/docs/en/` but served at root

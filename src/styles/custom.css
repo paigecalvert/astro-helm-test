@@ -1,0 +1,39 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Custom Color Palette */
+:root {
+  /* Primary */
+  --navy: #0F1689;
+  
+  /* Secondary */
+  --blue-dark: #090E6F;
+  --blue-light: #1B53C2;
+  
+  /* Shades */
+  --shade-dark: #050843;
+  --shade-mid: #B7C2E9;
+  --shade-light: #DBE1F3;
+  
+  /* Accents */
+  --accent-blue: #3B82BF;
+  --accent-green: #2F84A7;
+  --accent-red: #95297C;
+  --accent-yellow: #D1AA9B;
+
+  /* Font assignments */
+  --sl-font: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --sl-font-mono: 'Space Mono', 'Courier New', monospace;
+}
+
+/* Headings - Space Mono */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Mono', monospace;
+  color: var(--navy);
+}
+
+/* Site title - Space Mono */
+.site-title {
+  font-family: 'Space Mono', monospace;
+  color: var(--navy);
+}
