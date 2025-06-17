@@ -9,7 +9,10 @@ export default defineConfig({
 	base: '/astro-helm-test',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Helm Docs with Astro and Starlight',
+			logo: {
+				src: './src/assets/helm-logo.svg',
+			  },
 			defaultLocale: 'root',
 			locales: {
 			  // English docs in `src/content/docs/en/` but served at root
