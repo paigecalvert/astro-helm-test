@@ -5,7 +5,9 @@
       "translations": {
         "es": "Guías",
         "fr": "Guides",
-        "pt": "Guias"
+        "pt": "Guias",
+        "uk": "Посібники",
+        "ja": "ガイド"
       },
       "items": [
         {
@@ -14,7 +16,9 @@
           "translations": {
             "es": "Guía de Ejemplo",
             "fr": "Guide d'Exemple",
-            "pt": "Guia de Exemplo"
+            "pt": "Guia de Exemplo",
+            "uk": "Приклад посібника",
+            "ja": "ガイドの例"
           }
         }
       ]
@@ -24,7 +28,9 @@
       "translations": {
         "es": "Referencia",
         "fr": "Référence",
-        "pt": "Referência"
+        "pt": "Referência",
+        "uk": "Довідка",
+        "ja": "リファレンス"
       },
       "autogenerate": {
         "directory": "reference"
@@ -35,7 +41,9 @@
       "translations": {
         "es": "Prueba",
         "fr": "Test",
-        "pt": "Teste"
+        "pt": "Teste",
+        "uk": "Тест",
+        "ja": "テスト"
       },
       "autogenerate": {
         "directory": "test"

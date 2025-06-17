@@ -29,6 +29,14 @@ export default defineConfig({
 				label: 'Português',
 				lang: 'pt',
 			  },
+			  uk: {
+				label: 'Українська',
+				lang: 'uk',
+			  },
+			  ja: {
+				label: '日本語',
+				lang: 'ja',
+			  },
 		    },
 			plugins: [
 				starlightVersions({
@@ -44,7 +52,9 @@ export default defineConfig({
 					translations: {
 						es: 'Guías',
 						fr: 'Guides',
-						pt: 'Guias'
+						pt: 'Guias',
+						uk: 'Посібники',
+						ja: 'ガイド'
 					},
 					items: [
 						{ 
@@ -53,7 +63,9 @@ export default defineConfig({
 							translations: {
 								es: 'Guía de Ejemplo',
 								fr: 'Guide d\'Exemple',
-								pt: 'Guia de Exemplo'
+								pt: 'Guia de Exemplo',
+								uk: 'Приклад посібника',
+								ja: 'ガイドの例'
 							}
 						},
 					],
@@ -63,7 +75,9 @@ export default defineConfig({
 					translations: {
 						es: 'Referencia',
 						fr: 'Référence',
-						pt: 'Referência'
+						pt: 'Referência',
+						uk: 'Довідка',
+						ja: 'リファレンス'
 					},
 					autogenerate: { directory: 'reference' },
 				},
@@ -72,7 +86,9 @@ export default defineConfig({
 					translations: {
 						es: 'Prueba',
 						fr: 'Test',
-						pt: 'Teste'
+						pt: 'Teste',
+						uk: 'Тест',
+						ja: 'テスト'
 					},
 					autogenerate: { directory: 'test' },
 				},

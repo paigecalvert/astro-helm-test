@@ -3,53 +3,53 @@ import path from 'path';
 
 // Translation data
 const translations = {
-  fr: {
-    welcome: 'Bienvenue sur Starlight',
-    description: 'Commencez à construire votre site de documentation avec Starlight.',
-    tagline: 'Félicitations pour avoir configuré un nouveau projet Starlight !',
-    exampleGuide: 'Guide d\'Exemple',
-    readDocs: 'Lire la documentation Starlight',
-    nextSteps: 'Prochaines étapes',
-    updateContent: 'Mettre à jour le contenu',
-    updateContentDesc: 'Éditez `src/content/docs/fr/index.mdx` pour voir les changements sur cette page.',
-    addContent: 'Ajouter du nouveau contenu',
-    addContentDesc: 'Ajoutez des fichiers Markdown ou MDX à `src/content/docs/fr` pour créer de nouvelles pages.',
-    configureSite: 'Configurer votre site',
-    configureSiteDesc: 'Éditez votre `sidebar` et autres configurations dans `astro.config.mjs`.',
-    readDocsCard: 'Lire la documentation',
-    readDocsCardDesc: 'Apprenez-en plus dans [la Documentation Starlight](https://starlight.astro.build/).',
-    guideTitle: 'Guide d\'Exemple',
-    guideDesc: 'Un guide dans mon nouveau site de documentation Starlight.',
-    guideContent: 'Les guides mènent un utilisateur à travers une tâche spécifique qu\'il veut accomplir, souvent avec une séquence d\'étapes.\nÉcrire un bon guide nécessite de réfléchir à ce que vos utilisateurs essaient de faire.',
-    refTitle: 'Référence d\'Exemple',
-    refDesc: 'Une page de référence dans mon nouveau site de documentation Starlight.',
-    refContent: 'Les pages de référence sont idéales pour décrire le fonctionnement des choses de manière concise et claire.\nMoins préoccupées par raconter une histoire ou aborder un cas d\'usage spécifique, elles doivent donner des détails complets sur ce que vous documentez.',
-    furtherReading: 'Lecture supplémentaire',
-    topicPrefix: 'Sujet'
+  uk: {
+    welcome: 'Ласкаво просимо до Starlight',
+    description: 'Почніть створювати свій сайт документації з Starlight.',
+    tagline: 'Вітаємо з налаштуванням нового проекту Starlight!',
+    exampleGuide: 'Приклад посібника',
+    readDocs: 'Читати документацію Starlight',
+    nextSteps: 'Наступні кроки',
+    updateContent: 'Оновити контент',
+    updateContentDesc: 'Відредагуйте `src/content/docs/uk/index.mdx`, щоб побачити зміни на цій сторінці.',
+    addContent: 'Додати новий контент',
+    addContentDesc: 'Додайте файли Markdown або MDX до `src/content/docs/uk` для створення нових сторінок.',
+    configureSite: 'Налаштувати ваш сайт',
+    configureSiteDesc: 'Відредагуйте вашу `sidebar` та інші конфігурації в `astro.config.mjs`.',
+    readDocsCard: 'Читати документацію',
+    readDocsCardDesc: 'Дізнайтеся більше в [Документації Starlight](https://starlight.astro.build/).',
+    guideTitle: 'Приклад посібника',
+    guideDesc: 'Посібник на моєму новому сайті документації Starlight.',
+    guideContent: 'Посібники ведуть користувача через конкретне завдання, яке він хоче виконати, часто з послідовністю кроків.\nНаписання хорошого посібника вимагає роздумів про те, що ваші користувачі намагаються зробити.',
+    refTitle: 'Приклад довідки',
+    refDesc: 'Довідкова сторінка на моєму новому сайті документації Starlight.',
+    refContent: 'Довідкові сторінки ідеально підходять для опису того, як речі працюють стисло та ясно.\nМенш зайняті розповіддю історії або розглядом конкретного випадку використання, вони повинні надавати повні деталі про те, що ви документуєте.',
+    furtherReading: 'Додаткове читання',
+    topicPrefix: 'Тема'
   },
-  pt: {
-    welcome: 'Bem-vindo ao Starlight',
-    description: 'Comece a construir seu site de documentação com Starlight.',
-    tagline: 'Parabéns por configurar um novo projeto Starlight!',
-    exampleGuide: 'Guia de Exemplo',
-    readDocs: 'Leia a documentação do Starlight',
-    nextSteps: 'Próximos passos',
-    updateContent: 'Atualizar conteúdo',
-    updateContentDesc: 'Edite `src/content/docs/pt/index.mdx` para ver as mudanças nesta página.',
-    addContent: 'Adicionar novo conteúdo',
-    addContentDesc: 'Adicione arquivos Markdown ou MDX a `src/content/docs/pt` para criar novas páginas.',
-    configureSite: 'Configurar seu site',
-    configureSiteDesc: 'Edite sua `sidebar` e outras configurações em `astro.config.mjs`.',
-    readDocsCard: 'Ler a documentação',
-    readDocsCardDesc: 'Saiba mais na [Documentação do Starlight](https://starlight.astro.build/).',
-    guideTitle: 'Guia de Exemplo',
-    guideDesc: 'Um guia no meu novo site de documentação Starlight.',
-    guideContent: 'Os guias levam um usuário através de uma tarefa específica que eles querem realizar, frequentemente com uma sequência de passos.\nEscrever um bom guia requer pensar sobre o que seus usuários estão tentando fazer.',
-    refTitle: 'Referência de Exemplo',
-    refDesc: 'Uma página de referência no meu novo site de documentação Starlight.',
-    refContent: 'As páginas de referência são ideais para descrever como as coisas funcionam de forma concisa e clara.\nMenos preocupadas em contar uma história ou abordar um caso de uso específico, elas devem dar detalhes abrangentes sobre o que você está documentando.',
-    furtherReading: 'Leitura adicional',
-    topicPrefix: 'Tópico'
+  ja: {
+    welcome: 'Starlightへようこそ',
+    description: 'Starlightでドキュメントサイトの構築を始めましょう。',
+    tagline: '新しいStarlightプロジェクトの設定おめでとうございます！',
+    exampleGuide: 'ガイドの例',
+    readDocs: 'Starlightドキュメントを読む',
+    nextSteps: '次のステップ',
+    updateContent: 'コンテンツを更新',
+    updateContentDesc: 'このページの変更を確認するには、`src/content/docs/ja/index.mdx`を編集してください。',
+    addContent: '新しいコンテンツを追加',
+    addContentDesc: '新しいページを作成するには、`src/content/docs/ja`にMarkdownまたはMDXファイルを追加してください。',
+    configureSite: 'サイトを設定',
+    configureSiteDesc: '`astro.config.mjs`で`sidebar`やその他の設定を編集してください。',
+    readDocsCard: 'ドキュメントを読む',
+    readDocsCardDesc: '[Starlightドキュメント](https://starlight.astro.build/)で詳細を学んでください。',
+    guideTitle: 'ガイドの例',
+    guideDesc: '私の新しいStarlightドキュメントサイトのガイド。',
+    guideContent: 'ガイドは、ユーザーが達成したい特定のタスクを通じて、しばしば一連のステップでユーザーを導きます。\n良いガイドを書くには、ユーザーが何をしようとしているかを考える必要があります。',
+    refTitle: 'リファレンスの例',
+    refDesc: '私の新しいStarlightドキュメントサイトのリファレンスページ。',
+    refContent: 'リファレンスページは、物事がどのように機能するかを簡潔かつ明確に説明するのに理想的です。\n物語を語ったり、特定のユースケースに対処することにはあまり関心がなく、文書化している内容について包括的な詳細を提供する必要があります。',
+    furtherReading: '参考文献',
+    topicPrefix: 'トピック'
   }
 };
 
@@ -170,7 +170,7 @@ function createTestPage(pageNum, locale, version = '') {
   const t = translations[locale];
   const paddedNum = pageNum.toString().padStart(3, '0');
   const title = `${t.topicPrefix} ${paddedNum}`;
-  const description = `Description du ${t.topicPrefix.toLowerCase()} ${paddedNum} pour la documentation de test`;
+  const description = `Description for ${t.topicPrefix.toLowerCase()} ${paddedNum} in test documentation`;
   const slugPrefix = version ? `${locale}/${version}` : locale;
   
   return `---
@@ -194,52 +194,103 @@ ${generateLoremIpsum()}`;
 
 // Function to create i18n file
 function createI18nFile(locale) {
+  const translations = {
+    uk: {
+      skipLink: "Перейти до контенту",
+      search: "Пошук",
+      cancel: "Скасувати",
+      searchWarning: "Пошук доступний лише в продакшн-збірках. \nСпробуйте зібрати та переглянути сайт для локального тестування.",
+      themeSelect: "Вибрати тему",
+      dark: "Темна",
+      light: "Світла",
+      auto: "Автоматична",
+      languageSelect: "Вибрати мову",
+      menu: "Меню",
+      sidebar: "Головна",
+      onThisPage: "На цій сторінці",
+      overview: "Огляд",
+      untranslated: "Цей контент ще не доступний вашою мовою.",
+      editLink: "Редагувати сторінку",
+      lastUpdated: "Останнє оновлення:",
+      previous: "Попередня",
+      next: "Наступна",
+      draft: "Цей контент є чернеткою і не буде включений в продакшн-збірки.",
+      notFound: "Сторінку не знайдено. Перевірте URL або спробуйте використати панель пошуку.",
+      note: "Примітка",
+      tip: "Порада",
+      caution: "Обережно",
+      danger: "Небезпека",
+      directory: "Директорія",
+      builtWith: "Створено з Starlight"
+    },
+    ja: {
+      skipLink: "コンテンツにスキップ",
+      search: "検索",
+      cancel: "キャンセル",
+      searchWarning: "検索は本番ビルドでのみ利用可能です。\nローカルでテストするには、ビルドしてサイトをプレビューしてください。",
+      themeSelect: "テーマを選択",
+      dark: "ダーク",
+      light: "ライト",
+      auto: "自動",
+      languageSelect: "言語を選択",
+      menu: "メニュー",
+      sidebar: "メイン",
+      onThisPage: "このページで",
+      overview: "概要",
+      untranslated: "このコンテンツはまだあなたの言語で利用できません。",
+      editLink: "ページを編集",
+      lastUpdated: "最終更新:",
+      previous: "前へ",
+      next: "次へ",
+      draft: "このコンテンツはドラフトで、本番ビルドには含まれません。",
+      notFound: "ページが見つかりません。URLを確認するか、検索バーを使用してください。",
+      note: "注記",
+      tip: "ヒント",
+      caution: "注意",
+      danger: "危険",
+      directory: "ディレクトリ",
+      builtWith: "Starlightで構築"
+    }
+  };
+  
   const t = translations[locale];
   
   return JSON.stringify({
-    "skipLink.label": locale === 'fr' ? "Aller au contenu" : "Ir para o conteúdo",
-    "search.label": locale === 'fr' ? "Rechercher" : "Pesquisar",
+    "skipLink.label": t.skipLink,
+    "search.label": t.search,
     "search.ctrlKey": "Ctrl",
-    "search.cancelLabel": locale === 'fr' ? "Annuler" : "Cancelar",
-    "search.devWarning": locale === 'fr' 
-      ? "La recherche n'est disponible que dans les builds de production. \nEssayez de build et prévisualiser le site pour le tester localement."
-      : "A pesquisa só está disponível em builds de produção. \nTente fazer build e visualizar o site para testá-lo localmente.",
-    "themeSelect.accessibleLabel": locale === 'fr' ? "Sélectionner le thème" : "Selecionar tema",
-    "themeSelect.dark": locale === 'fr' ? "Sombre" : "Escuro",
-    "themeSelect.light": locale === 'fr' ? "Clair" : "Claro",
-    "themeSelect.auto": locale === 'fr' ? "Automatique" : "Automático",
-    "languageSelect.accessibleLabel": locale === 'fr' ? "Sélectionner la langue" : "Selecionar idioma",
-    "menuButton.accessibleLabel": locale === 'fr' ? "Menu" : "Menu",
-    "sidebarNav.accessibleLabel": locale === 'fr' ? "Principal" : "Principal",
-    "tableOfContents.onThisPage": locale === 'fr' ? "Sur cette page" : "Nesta página",
-    "tableOfContents.overview": locale === 'fr' ? "Aperçu" : "Visão geral",
-    "i18n.untranslatedContent": locale === 'fr' 
-      ? "Ce contenu n'est pas encore disponible dans votre langue."
-      : "Este conteúdo ainda não está disponível no seu idioma.",
-    "page.editLink": locale === 'fr' ? "Modifier la page" : "Editar página",
-    "page.lastUpdated": locale === 'fr' ? "Dernière mise à jour :" : "Última atualização:",
-    "page.previousLink": locale === 'fr' ? "Précédent" : "Anterior",
-    "page.nextLink": locale === 'fr' ? "Suivant" : "Próximo",
-    "page.draft": locale === 'fr' 
-      ? "Ce contenu est un brouillon et ne sera pas inclus dans les builds de production."
-      : "Este conteúdo é um rascunho e não será incluído nos builds de produção.",
-    "404.text": locale === 'fr' 
-      ? "Page non trouvée. Vérifiez l'URL ou essayez d'utiliser la barre de recherche."
-      : "Página não encontrada. Verifique a URL ou tente usar a barra de pesquisa.",
-    "aside.note": "Note",
-    "aside.tip": locale === 'fr' ? "Conseil" : "Dica",
-    "aside.caution": locale === 'fr' ? "Attention" : "Cuidado",
-    "aside.danger": locale === 'fr' ? "Danger" : "Perigo",
-    "fileTree.directory": locale === 'fr' ? "Répertoire" : "Diretório",
-    "builtWithStarlight.label": locale === 'fr' ? "Construit avec Starlight" : "Construído com Starlight"
+    "search.cancelLabel": t.cancel,
+    "search.devWarning": t.searchWarning,
+    "themeSelect.accessibleLabel": t.themeSelect,
+    "themeSelect.dark": t.dark,
+    "themeSelect.light": t.light,
+    "themeSelect.auto": t.auto,
+    "languageSelect.accessibleLabel": t.languageSelect,
+    "menuButton.accessibleLabel": t.menu,
+    "sidebarNav.accessibleLabel": t.sidebar,
+    "tableOfContents.onThisPage": t.onThisPage,
+    "tableOfContents.overview": t.overview,
+    "i18n.untranslatedContent": t.untranslated,
+    "page.editLink": t.editLink,
+    "page.lastUpdated": t.lastUpdated,
+    "page.previousLink": t.previous,
+    "page.nextLink": t.next,
+    "page.draft": t.draft,
+    "404.text": t.notFound,
+    "aside.note": t.note,
+    "aside.tip": t.tip,
+    "aside.caution": t.caution,
+    "aside.danger": t.danger,
+    "fileTree.directory": t.directory,
+    "builtWithStarlight.label": t.builtWith
   }, null, 2);
 }
 
 // Main function
 function addLocales() {
-  const locales = ['fr', 'pt'];
+  const locales = ['uk', 'ja'];
   
-  console.log('🚀 Adding French and Portuguese locales...\n');
+  console.log('🚀 Adding Ukrainian and Japanese locales...\n');
   
   locales.forEach(locale => {
     console.log(`📁 Creating ${locale.toUpperCase()} content...`);
@@ -280,13 +331,13 @@ function addLocales() {
     // Create i18n file
     fs.writeFileSync(`src/content/i18n/${locale}.json`, createI18nFile(locale));
     
-    console.log(`✅ ${locale.toUpperCase()} content created (404 files)`);
+    console.log(`✅ ${locale.toUpperCase()} content created (206 files)`);
   });
   
   console.log('\n🎉 All locales created successfully!');
-  console.log('📊 Total new files: ~808');
+  console.log('📊 Total new files: ~412');
   console.log('\n⚠️  Remember to update astro.config.mjs with the new locales and sidebar translations!');
 }
 
 // Run the script
-addLocales(); 
+addLocales();
