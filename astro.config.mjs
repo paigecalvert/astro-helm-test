@@ -21,10 +21,20 @@ export default defineConfig({
 				label: 'Español',
 				lang: 'es',
 			  },
+			  fr: {
+				label: 'Français',
+				lang: 'fr',
+			  },
+			  pt: {
+				label: 'Português',
+				lang: 'pt',
+			  },
 		    },
 			plugins: [
 				starlightVersions({
-					versions: [{ slug: 'v1.0' }],
+					versions: [
+						{ slug: 'v1.0', label: 'v1.0' }
+					]
 				}),
 			],
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
@@ -32,14 +42,18 @@ export default defineConfig({
 				{
 					label: 'Guides',
 					translations: {
-						es: 'Guías'
+						es: 'Guías',
+						fr: 'Guides',
+						pt: 'Guias'
 					},
 					items: [
 						{ 
 							label: 'Example Guide', 
 							slug: 'guides/example',
 							translations: {
-								es: 'Guía de Ejemplo'
+								es: 'Guía de Ejemplo',
+								fr: 'Guide d\'Exemple',
+								pt: 'Guia de Exemplo'
 							}
 						},
 					],
@@ -47,9 +61,20 @@ export default defineConfig({
 				{
 					label: 'Reference',
 					translations: {
-						es: 'Referencia'
+						es: 'Referencia',
+						fr: 'Référence',
+						pt: 'Referência'
 					},
 					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'Test',
+					translations: {
+						es: 'Prueba',
+						fr: 'Test',
+						pt: 'Teste'
+					},
+					autogenerate: { directory: 'test' },
 				},
 			],
 		}),

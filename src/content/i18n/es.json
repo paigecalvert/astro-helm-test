@@ -39,5 +39,19 @@
     "pagefind.one_result": "[COUNT] resultado para [SEARCH_TERM]",
     "pagefind.alt_search": "No hay resultados para [SEARCH_TERM]. Mostrando resultados para [DIFFERENT_TERM] en su lugar",
     "pagefind.search_suggestion": "No hay resultados para [SEARCH_TERM]. Intenta una de las siguientes búsquedas:",
-    "pagefind.searching": "Buscando [SEARCH_TERM]..."
-}
+    "pagefind.searching": "Buscando [SEARCH_TERM]...",
+    "homepage.title": "Bienvenido a Starlight",
+    "homepage.description": "Comienza a construir tu sitio de documentación con Starlight.",
+    "homepage.hero.tagline": "¡Felicidades por configurar un nuevo proyecto de Starlight!",
+    "homepage.hero.exampleGuide": "Guía de Ejemplo",
+    "homepage.hero.readDocs": "Lee la documentación de Starlight",
+    "homepage.nextSteps": "Próximos pasos",
+    "homepage.card.updateContent.title": "Actualizar contenido",
+    "homepage.card.updateContent.description": "Edita `src/content/docs/index.mdx` para ver cambios en esta página.",
+    "homepage.card.addContent.title": "Agregar nuevo contenido",
+    "homepage.card.addContent.description": "Agrega archivos Markdown o MDX a `src/content/docs` para crear nuevas páginas.",
+    "homepage.card.configureSite.title": "Configurar tu sitio",
+    "homepage.card.configureSite.description": "Edita tu `sidebar` y otras configuraciones en `astro.config.mjs`.",
+    "homepage.card.readDocs.title": "Lee la documentación",
+    "homepage.card.readDocs.description": "Aprende más en [la Documentación de Starlight](https://starlight.astro.build/)."
+  }

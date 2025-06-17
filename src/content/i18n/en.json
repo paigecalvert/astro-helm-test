@@ -1,0 +1,16 @@
+{
+    "homepage.title": "Welcome to Starlight",
+    "homepage.description": "Get started building your docs site with Starlight.",
+    "homepage.hero.tagline": "Congrats on setting up a new Starlight project!",
+    "homepage.hero.exampleGuide": "Example Guide",
+    "homepage.hero.readDocs": "Read the Starlight docs",
+    "homepage.nextSteps": "Next steps",
+    "homepage.card.updateContent.title": "Update content",
+    "homepage.card.updateContent.description": "Edit `src/content/docs/index.mdx` to see this page change.",
+    "homepage.card.addContent.title": "Add new content",
+    "homepage.card.addContent.description": "Add Markdown or MDX files to `src/content/docs` to create new pages.",
+    "homepage.card.configureSite.title": "Configure your site",
+    "homepage.card.configureSite.description": "Edit your `sidebar` and other config in `astro.config.mjs`.",
+    "homepage.card.readDocs.title": "Read the docs",
+    "homepage.card.readDocs.description": "Learn more in [the Starlight Docs](https://starlight.astro.build/)."
+} 
