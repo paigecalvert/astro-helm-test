@@ -1,0 +1,53 @@
+{
+  "sidebar": [
+    {
+      "label": "Guides",
+      "translations": {
+        "es": "Guías",
+        "fr": "Guides",
+        "pt": "Guias",
+        "uk": "Посібники",
+        "ja": "ガイド"
+      },
+      "items": [
+        {
+          "label": "Example Guide",
+          "slug": "guides/example",
+          "translations": {
+            "es": "Guía de Ejemplo",
+            "fr": "Guide d'Exemple",
+            "pt": "Guia de Exemplo",
+            "uk": "Приклад посібника",
+            "ja": "ガイドの例"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Reference",
+      "translations": {
+        "es": "Referencia",
+        "fr": "Référence",
+        "pt": "Referência",
+        "uk": "Довідка",
+        "ja": "リファレンス"
+      },
+      "autogenerate": {
+        "directory": "reference"
+      }
+    },
+    {
+      "label": "Test",
+      "translations": {
+        "es": "Prueba",
+        "fr": "Test",
+        "pt": "Teste",
+        "uk": "Тест",
+        "ja": "テスト"
+      },
+      "autogenerate": {
+        "directory": "test"
+      }
+    }
+  ]
+}

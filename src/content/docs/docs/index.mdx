@@ -1,0 +1,40 @@
+---
+title: Welcome to Helm Docs
+description: Test docs site for Helm built with Astro and Starlight.
+template: splash
+hero:
+  tagline: This site is built with Astro and Starlight
+  image:
+    file: ../../../assets/docs/houston.webp
+  actions:
+    - text: Example guide
+      link: /astro-helm-test/docs/guides/example/
+      icon: right-arrow
+    - text: Read the Helm docs
+      link: https://helm.sh/docs/
+      icon: external
+      variant: minimal
+slug: docs
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Next steps
+
+<CardGrid stagger>
+  <Card title="Update content" icon="pencil">
+    Edit `src/content/docs/index.mdx` to see this page change.
+  </Card>
+
+  <Card title="Add new content" icon="add-document">
+    Add Markdown or MDX files to `src/content/docs` to create new pages.
+  </Card>
+
+  <Card title="Configure your site" icon="setting">
+    Edit your `sidebar` and other config in `astro.config.mjs`.
+  </Card>
+
+  <Card title="Read the docs" icon="open-book">
+    Learn more in [the Starlight Docs](https://starlight.astro.build/).
+  </Card>
+</CardGrid>
